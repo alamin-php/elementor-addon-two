@@ -29,7 +29,7 @@ class Elementor_Section_Title_Widget extends \Elementor\Widget_Base {
         $this->start_controls_section(
             'content_section',
             [
-                'label' => esc_html__( 'content', 'elementor-addon-halim' ),
+                'label' => esc_html__( 'Content', 'elementor-addon-halim' ),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -72,7 +72,7 @@ class Elementor_Section_Title_Widget extends \Elementor\Widget_Base {
         $this->start_controls_section(
             'style_section',
             [
-                'label' => esc_html__( 'content', 'elementor-addon-halim' ),
+                'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
                 'tab' => \Elementor\Controls_Manager::TAB_STYLE,
             ]
         );
